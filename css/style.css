@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+   background: url("../img/pattern.png");
+    
+    font-family: Tahoma;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px
+        #ccc;
+    border-radius: 10px;
+}
+
+.card-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 20px;
+    text-align: center;
+    color: #0e3c36;
+    
+}
+
+.card-title2 {
+    font-size: 17px;
+    text-align: center;
+    color: #0e3c36;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+}
+
+.topbutton {
+    width: 100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+
+}
